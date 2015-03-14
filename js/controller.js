@@ -1,1 +1,0 @@
-var test = ["AA", "AB"]
