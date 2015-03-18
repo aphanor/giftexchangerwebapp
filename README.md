@@ -1,10 +1,10 @@
 #Giftexchanger Web App
 
-**Description**
+###Description
 
 This will be a SDK that allows you to contribute to my new Web Application "GiftExchanger".
 
-**Technologies used**
+###Technologies used
 
 ### 
 > - [AngularJS](https://angularjs.org/) 
@@ -25,3 +25,6 @@ This will be a SDK that allows you to contribute to my new Web Application "Gift
 
 > - [MustacheJS](https://github.com/janl/mustache.js/)
 
+### Version 
+
+2.0.1
