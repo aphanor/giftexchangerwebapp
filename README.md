@@ -33,8 +33,8 @@ This will be a `SDK` that allows you to contribute to my new web application "Gi
 
 - `Staging` Environment 
 
-> [dev.staging-giftexchanger](dev.staging-giftexchanger.s3-website-eu-west-1.amazonaws.com)
+> [dev.staging-giftexchanger](http://dev.staging-giftexchanger.s3-website-eu-west-1.amazonaws.com)
 
 - `Production` Environment
 
-> [giftexchangerwebapp](giftexchangerwebapp.s3-website-eu-west-1.amazonaws.com)
+> [giftexchangerwebapp](http://giftexchangerwebapp.s3-website-eu-west-1.amazonaws.com)
