@@ -7,13 +7,21 @@ This will be a SDK that allows you to contribute to my new Web Application "Gift
 **Technologies used**
 
 ### 
-> - Angular.js with firebase (https://www.firebase.com/).
+> - [AngularJS](https://angularjs.org/) 
 
-> - Node.js with the following dependencies: grunt-contrib-watch, grunt-contrib-uglify, grunt-contrib-compass (https://github.com/gruntjs/grunt-contrib)
+> - [Firebase](https://www.firebase.com/)
 
-> - HTML 5
+> - [Angular UI Bootstrap 3](http://angular-ui.github.io/bootstrap/)
 
-> - CSS, LESS & Sass
+> - [NodeJS](https://nodejs.org/) with the following dependencies: [grunt-contrib-watch, grunt-contrib-uglify, grunt-contrib-compass] (https://github.com/gruntjs/grunt-contrib)
 
-> - Ruby
+> - [HTML 5](http://www.w3schools.com/html/html5_intro.asp)
+
+> - [CSS, LESS](http://www.w3schools.com/css/) & [Sass](http://sass-lang.com/)
+
+> - [Ruby](https://www.ruby-lang.org/en/)
+
+> - [jQuery](https://jquery.com/)
+
+> - [MustacheJS](https://github.com/janl/mustache.js/)
 
