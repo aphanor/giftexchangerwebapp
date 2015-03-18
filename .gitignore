@@ -36,3 +36,6 @@
 .sass-cache
 ehthumbs.db
 Thumbs.db
+
+# Sass #
+**.sass-cache**
