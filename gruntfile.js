@@ -1,10 +1,19 @@
 module.exports = function(grunt) {
+	
+	// Load NodeJS & Grunt dependencies 
+	
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-sync');
+	
+	// Start Grunt configuration
+	
 	grunt.initConfig({
+		
+		// Minified JavaScript		
+		
 		uglify: {
 			my_target: {
 				files: {
@@ -12,6 +21,9 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		
+		// Tracking tasks
+		
 		watch: {
 			options: { 
 				livereload: true
@@ -33,6 +45,9 @@ module.exports = function(grunt) {
 				tasks: ['sync:dev']
 			}
 		},
+		
+		// Minified SASS files & compile them via Ruby
+		
 		compass : {
 			dev: {
 				options: {
@@ -40,6 +55,9 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		
+		// Sync all the files from main, js and views directories
+		
 		sync: {
 			main: {
 			    files: [
@@ -50,10 +68,11 @@ module.exports = function(grunt) {
 				files: [
 					{cwd: 'dev/', src: ['js/**', 'views/**'], dest: 'prod/'}
 				]
-				//updateAndDelete: true
+				// ** updateAndDelete: true **
 			}
 		}
 	})
 	
+	// Run tasks when grunt is called from the terminal
 	grunt.registerTask('default', ['watch']);
 }
