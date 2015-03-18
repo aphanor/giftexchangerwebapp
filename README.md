@@ -28,3 +28,13 @@ This will be a `SDK` that allows you to contribute to my new web application "Gi
 ### Version 
 
    `2.0.1`
+
+### Web Environments 
+
+- `Staging` Environment 
+
+> [dev.staging-giftexchanger](dev.staging-giftexchanger.s3-website-eu-west-1.amazonaws.com)
+
+- `Production` Environment
+
+> [giftexchangerwebapp](giftexchangerwebapp.s3-website-eu-west-1.amazonaws.com)
