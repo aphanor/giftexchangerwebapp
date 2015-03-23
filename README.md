@@ -2,7 +2,7 @@
 
 ###Description
 
-This will be a `SDK` that allows you to contribute to my new web application "GiftExchanger".
+This is my working `project` for my new web application "GiftExchanger".
 
 ###Technologies used
 
