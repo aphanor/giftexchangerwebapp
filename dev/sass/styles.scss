@@ -2,10 +2,10 @@
 @import "compass/reset";
 @import "susy";
 
-@import "variables";
-@import "base";
+@import "_variables";
+@import "_base";
 @modules "modules";
-@import "font-awesome-sprockets";
+@import "font-awesome-compass";
 @import "font-awesome";
 
 div#main {

@@ -1,1 +1,1 @@
-var scannerapp=angular.module("scannerapp",["ngRoute","scannerappControllers"]),scannerappControllers=angular.module("scannerappControllers",[]);scannerapp.config(["$routeProvider",function(a){a.when("/results",{templateUrl:"views/results.html"}).otherwise({redirectTo:"/"})}]);
+var scannerapp=angular.module("scannerapp",["ngRoute"]);scannerapp.config(["$routeProvider","$locationProvider",function(a,b){a.when("/results",{templateUrl:"views/results.html"}),b.html5Mode(!0)}]);

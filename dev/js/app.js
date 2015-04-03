@@ -1,17 +1,16 @@
-var scannerapp = angular.module('scannerapp', [
-	'ngRoute',
-	'scannerappControllers'
-]);
+var scannerapp = angular.module('scannerapp', ['ngRoute']);
 
-var scannerappControllers = angular.module('scannerappControllers', []);
-
-scannerapp.config(['$routeProvider', function($routeProvider) {
+scannerapp.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
 	$routeProvider.
 		when('/results', {
 		    templateUrl: 'views/results.html'
-	}).
-	otherwise({
+	})
+	
+	$locationProvider.html5Mode(true);
+	
+	/*$routeProvider.otherwise({
 		redirectTo: '/'
 	})
+	*/
 	
 }]);
